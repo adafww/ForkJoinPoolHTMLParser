@@ -9,7 +9,7 @@ import java.util.concurrent.ForkJoinPool;
 
 public class Main {
 
-    private static final String url = "https://lenta.ru/";
+    private static final String url = "https://example.com/";
     private static final String regex = "(" + url + ".+)(\\/)";
     private static final int numberOfCores = Runtime.getRuntime().availableProcessors();
 
